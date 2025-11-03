@@ -1,19 +1,19 @@
 # Atividade: Qualidade e Testes de Software - Tarefa 3
 
-[cite\_start]Este projeto é a resolução da **Tarefa 3: Controle de Estoque de Produtos**[cite: 63], parte da atividade da disciplina de Qualidade e Testes de Software.
+Este projeto é a resolução da **Tarefa 3: Controle de Estoque de Produtos**[cite: 63], parte da atividade da disciplina de Qualidade e Testes de Software.
 
-[cite\_start]O objetivo principal é demonstrar a aplicação de testes unitários seguindo o padrão AAA (Arrange-Act-Assert) [cite: 26] [cite\_start]para criar uma classe de negócio robusta, garantindo **100% de cobertura de testes** de linhas e ramos (branches)[cite: 94].
+O objetivo principal é demonstrar a aplicação de testes unitários seguindo o padrão AAA (Arrange-Act-Assert) para criar uma classe de negócio robusta, garantindo **100% de cobertura de testes** de linhas e ramos (branches).
 
 ## 🎯 Requisitos da Tarefa 3
 
-[cite\_start]A tarefa consistia em criar uma classe `EstoqueProduto` [cite: 68] com os seguintes requisitos funcionais:
+A tarefa consistia em criar uma classe `EstoqueProduto` com os seguintes requisitos funcionais:
 
-  * [cite\_start]Um construtor que recebe `nomeProduto` e `quantidadeInicial`[cite: 69].
-  * [cite\_start]O construtor deve lançar `IllegalArgumentException` se a `quantidadeInicial` for negativa[cite: 70].
-  * [cite\_start]Um método `adicionar(int quantidade)` que lança `IllegalArgumentException` se a quantidade for menor ou igual a zero[cite: 72].
-  * [cite\_start]Um método `remover(int quantidade)` que lança `IllegalArgumentException` se a quantidade for menor ou igual a zero[cite: 74].
-  * [cite\_start]O método `remover` deve lançar uma exceção customizada `EstoqueInsuficienteException` se a remoção resultar em estoque negativo[cite: 75].
-  * [cite\_start]Um método `getQuantidadeAtual()` para retornar o estoque[cite: 77].
+  * Um construtor que recebe `nomeProduto` e `quantidadeInicial`.
+  * O construtor deve lançar `IllegalArgumentException` se a `quantidadeInicial` for negativa.
+  * Um método `adicionar(int quantidade)` que lança `IllegalArgumentException` se a quantidade for menor ou igual a zero.
+  * Um método `remover(int quantidade)` que lança `IllegalArgumentException` se a quantidade for menor ou igual a zero.
+  * O método `remover` deve lançar uma exceção customizada `EstoqueInsuficienteException` se a remoção resultar em estoque negativo.
+  * Um método `getQuantidadeAtual()` para retornar o estoque.
 
 ## 🛠️ Tecnologias Utilizadas
 
